@@ -14,7 +14,6 @@ class MainActivity : AppCompatActivity() {
         var manager:FragmentTransaction=supportFragmentManager.beginTransaction()
         val pop :popActivity= popActivity()
         pop.show(manager,null)
-
     }
     fun setDate(data:String){
         var txtView:TextView=findViewById(R.id.txt)
